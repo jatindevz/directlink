@@ -35,10 +35,10 @@ const LandingPage = ({ session}) => {
 
                 <div className="container mx-auto px-4 text-center relative z-10">
                     <h1 className="font-extrabold leading-tight mb-4">
-                        <span className="text-green-500 text-4xl md:text-6xl ">Track.     </span>  <span className='text-4xl md:text-6xl'>  Manage.</span> <span className="block my-2 text-3xl md:text-5xl">Stop Juggling Tabs. Start <span className="text-green-500 text-4xl md:text-6xl ">DevTrack.</span></span>
+                        <span className="text-green-500 text-4xl md:text-6xl ">Track.     </span>  <span className='text-4xl md:text-6xl'>  Manage.</span> <span className="block my-2 text-3xl md:text-5xl">Stop Juggling Tabs. Start <span className="text-green-500 text-4xl md:text-6xl ">Curate.</span></span>
                     </h1>
                     <p className="text-xl md:text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-                        The ultimate dashboard for developers to organize coding challenges, job applications, and portfolio links in one place.
+                        The ultimate dashboard for Users to organize Their Important Links in one place.
                     </p>
 
                     <a
