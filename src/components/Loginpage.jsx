@@ -134,7 +134,7 @@ const LoginPage = ({ onClose }) => {
                         className="w-full flex justify-center items-center space-x-2 px-4 py-3 text-lg font-semibold rounded-lg text-white bg-green-600 hover:bg-green-700 transition duration-300 shadow-md hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
                     >
                         <FontAwesomeIcon icon={faSignInAlt} />
-                        <span>{isLoading ? 'Processing...' : (isSignUp ? 'Sign Up' : 'Sign In')}</span>
+                        <span >{isLoading ? 'Processing...' : (isSignUp ? 'Sign Up' : 'Sign In')}</span>
                     </button>
 
                     {/* Toggle between Sign In and Sign Up */}
@@ -148,10 +148,18 @@ const LoginPage = ({ onClose }) => {
                             disabled={isLoading}
                             className="text-green-600 hover:text-green-700 font-medium transition duration-200 disabled:opacity-50"
                         >
-                            {isSignUp
-                                ? 'Already have an account? Sign In'
-                                : "Don't have an account? Sign Up"}
+                            {isSignUp ? (
+                                <>
+                                    Already have an account? <span className="text-black cursor-pointer hover:underline">Sign In</span>
+                                </>
+                            ) : (
+                                <>
+                                    Don't have an account? <span className="text-black cursor-pointer hover:underline">Sign Up</span>
+                                </>
+                            )}
+
                         </button>
+                        
                     </div>
                 </form>
             </div>
