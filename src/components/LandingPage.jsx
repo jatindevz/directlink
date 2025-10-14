@@ -10,6 +10,8 @@ import {
 import { faGithub, faHackerrank } from '@fortawesome/free-brands-svg-icons';
 import LoginPage from './Loginpage';
 import { supabase } from '../supabase-client';
+import twosb from '../assets/twosb.png';
+import onesb from '../assets/onesb.png';
 // import DashboardScreenshot1 from './src/assets/onesb.png';
 // import DashboardScreenshot2 from './src/assets/twosb.png'; 
 
@@ -54,12 +56,12 @@ const LandingPage = ({ session}) => {
                 <div className="container mx-auto px-4 relative z-10 mt-16 md:mt-24">
                     <div className="flex justify-center space-x-4 md:space-x-8">
                         <img
-                            src={'./src/assets/twosb.png'}
+                            src={twosb}
                             alt="DevTrack Dashboard Screenshot 1"
                             className="w-1/2 md:w-5/12 rounded-xl shadow-2xl border-4 border-gray-700 transform rotate-[-3deg] transition-transform duration-500 "
                         />
                         <img
-                            src={'./src/assets/onesb.png'}
+                            src={onesb}
                             alt="DevTrack Dashboard Screenshot 2"
                             className="w-1/2 md:w-5/12 rounded-xl shadow-2xl border-4 border-gray-700 transform rotate-[3deg] transition-transform duration-500  sm:block"
                         />
