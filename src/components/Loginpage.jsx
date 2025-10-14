@@ -76,8 +76,8 @@ const LoginPage = ({ onClose }) => {
                     </h2>
                     <p className="text-gray-400">
                         {isSignUp
-                            ? 'Sign up to create your Job Search Dashboard account.'
-                            : 'Sign in to access your Job Search Dashboard.'}
+                            ? 'Sign up to create your Curate account.'
+                            : 'Sign in to access your Curate Dashboard.'}
                     </p>
                     <div className="w-16 h-1 bg-green-500 mx-auto mt-4"></div>
                 </div>
